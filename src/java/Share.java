@@ -45,7 +45,7 @@ import javazoom.upload.UploadException;
 @WebServlet(name = "Share", urlPatterns = {"/Share"})
 public class Share extends HttpServlet 
 {
-    private final String UPLOAD_DIR = "C:/Users/acute/Documents/NetBeansProjects/Imp/web/files";
+    private final String UPLOAD_DIR = "C:/Users/acute/Documents/NetBeansProjects/Imp/files";
     String kdc;           
      
     private final static Logger LOGGER = Logger.getLogger(Share.class.getCanonicalName());
